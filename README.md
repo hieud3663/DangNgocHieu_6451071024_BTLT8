@@ -78,4 +78,5 @@ lib/
 <video controls>
   <source src="lib/view/2/video.mp4" type="video/mp4">
 </video>
+
 [Xem video demo](lib/view/2/video.mp4)
