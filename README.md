@@ -80,3 +80,7 @@ lib/
 </video>
 
 [Xem video demo](lib/view/2/video.mp4)
+
+https://github.com/user-attachments/assets/eaa95967-c1cb-4835-86af-03adba8fba12
+
+
