@@ -44,6 +44,12 @@ class DashboardScreen extends StatelessWidget {
         label: 'Bài 6: Lưu ảnh offline',
         onTap: () => Navigator.pushNamed(context, '/offline_gallery'),
       ),
+      DashboardItem(
+        icon: Icons.history_outlined,
+        iconColor: Colors.redAccent,
+        label: 'Bài 8: Nhật ký hoạt động',
+        onTap: () => Navigator.pushNamed(context, '/activity_logs'),
+      ),
     ];
 
     return Scaffold(

@@ -14,17 +14,41 @@ lib/
 ├── apps/
 │   └── app.dart
 ├── controllers/
+│   ├── activity_log_controller.dart
+│   ├── dictionary_controller.dart
+│   ├── expense_controller.dart
 │   ├── note_controller.dart
-│   └── note_category_controller.dart
+│   ├── note_category_controller.dart
+│   ├── offline_image_controller.dart
+│   └── task_controller.dart
 ├── data/
 │   ├── models/
+│   │   ├── activity_log.dart
 │   │   ├── category.dart
+│   │   ├── category_total.dart
 │   │   ├── dashboard_item.dart
-│   │   └── note.dart
+│   │   ├── dictionary_entry.dart
+│   │   ├── expense.dart
+│   │   ├── expense_category.dart
+│   │   ├── note.dart
+│   │   ├── offline_image.dart
+│   │   └── task.dart
 │   ├── repositories/
-│   │   └── note_repository.dart
+│   │   ├── activity_log_repository.dart
+│   │   ├── dictionary_repository.dart
+│   │   ├── expense_repository.dart
+│   │   ├── note_repository.dart
+│   │   ├── offline_image_repository.dart
+│   │   └── task_repository.dart
 │   └── services/
-│       └── note_db_service.dart
+│       ├── activity_log_db_service.dart
+│       ├── activity_log_file_service.dart
+│       ├── dictionary_db_service.dart
+│       ├── expense_db_service.dart
+│       ├── note_db_service.dart
+│       ├── offline_image_service.dart
+│       ├── task_db_service.dart
+│       └── task_file_service.dart
 ├── utils/
 │   ├── constants.dart
 │   └── validate.dart
@@ -47,11 +71,26 @@ lib/
     │   ├── note_category_form_view.dart
     │   └── video.mp4
     ├── 3/
+    │   ├── task_list_view.dart
+    │   └── image.png
     ├── 4/
+    │   ├── expense_list_view.dart
+    │   ├── expense_form_view.dart
+    │   ├── image.png
+    │   ├── image2.png
+    │   ├── image3.png
+    │   └── image4.png
     ├── 5/
+    │   ├── dictionary_view.dart
+    │   ├── image.png
+    │   └── image2.png
     ├── 6/
+    │   ├── offline_gallery_view.dart
+    │   └── image.png
     ├── 7/
     ├── 8/
+    │   ├── activity_log_view.dart
+    │   └── image.png
     ├── 9/
     └── 10/
 ```
@@ -82,5 +121,47 @@ lib/
 [Xem video demo](lib/view/2/video.mp4)
 
 https://github.com/user-attachments/assets/eaa95967-c1cb-4835-86af-03adba8fba12
+
+---
+
+### Bài 3: To-do list và lưu backup JSON (SQLite + File)
+- Ảnh demo
+![Bài 3](lib/view/3/image.png)
+
+---
+
+### Bài 4: Quản lý chi tiêu (SQLite nhiều bảng)
+- Ảnh 1
+![Bài 4](lib/view/4/image.png)
+
+- Ảnh 2
+![Bài 4](lib/view/4/image2.png)
+
+- Ảnh 3
+![Bài 4](lib/view/4/image3.png)
+
+- Ảnh 4
+![Bài 4](lib/view/4/image4.png)
+
+---
+
+### Bài 5: Từ điển offline (File JSON + SQLite)
+- Ảnh 1
+![Bài 5](lib/view/5/image.png)
+
+- Ảnh 2
+![Bài 5](lib/view/5/image2.png)
+
+---
+
+### Bài 6: Lưu ảnh offline (File + SQLite)
+- Ảnh demo
+![Bài 6](lib/view/6/image.png)
+
+---
+
+### Bài 8: Nhật ký hoạt động (SQLite + File log)
+- Ảnh demo
+![Bài 8](lib/view/8/image.png)
 
 
