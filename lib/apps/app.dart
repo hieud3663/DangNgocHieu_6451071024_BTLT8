@@ -5,6 +5,7 @@ import 'package:flutter_baitap_chuong11/view/3/task_list_view.dart';
 import 'package:flutter_baitap_chuong11/view/4/expense_list_view.dart';
 import 'package:flutter_baitap_chuong11/view/5/dictionary_view.dart';
 import 'package:flutter_baitap_chuong11/view/6/offline_gallery_view.dart';
+import 'package:flutter_baitap_chuong11/view/7/student_course_view.dart';
 import 'package:flutter_baitap_chuong11/view/8/activity_log_view.dart';
 import '../view/dashboard/dashboard_screen.dart';
 
@@ -25,6 +26,7 @@ class MainApp extends StatelessWidget {
         '/expenses': (context) => const ExpenseListView(),
         '/dictionary': (context) => const DictionaryView(),
         '/offline_gallery': (context) => const OfflineGalleryView(),
+        '/student_courses': (context) => const StudentCourseView(),
         '/activity_logs': (context) => const ActivityLogView(),
       },
       theme: ThemeData(

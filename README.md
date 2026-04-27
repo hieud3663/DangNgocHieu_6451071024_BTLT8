@@ -20,18 +20,23 @@ lib/
 │   ├── note_controller.dart
 │   ├── note_category_controller.dart
 │   ├── offline_image_controller.dart
+│   ├── student_course_controller.dart
 │   └── task_controller.dart
 ├── data/
 │   ├── models/
 │   │   ├── activity_log.dart
 │   │   ├── category.dart
 │   │   ├── category_total.dart
+│   │   ├── course.dart
 │   │   ├── dashboard_item.dart
 │   │   ├── dictionary_entry.dart
+│   │   ├── enrollment.dart
 │   │   ├── expense.dart
 │   │   ├── expense_category.dart
 │   │   ├── note.dart
 │   │   ├── offline_image.dart
+│   │   ├── student.dart
+│   │   ├── student_course_info.dart
 │   │   └── task.dart
 │   ├── repositories/
 │   │   ├── activity_log_repository.dart
@@ -39,6 +44,7 @@ lib/
 │   │   ├── expense_repository.dart
 │   │   ├── note_repository.dart
 │   │   ├── offline_image_repository.dart
+│   │   ├── student_course_repository.dart
 │   │   └── task_repository.dart
 │   └── services/
 │       ├── activity_log_db_service.dart
@@ -47,6 +53,7 @@ lib/
 │       ├── expense_db_service.dart
 │       ├── note_db_service.dart
 │       ├── offline_image_service.dart
+│       ├── student_course_db_service.dart
 │       ├── task_db_service.dart
 │       └── task_file_service.dart
 ├── utils/
@@ -88,6 +95,9 @@ lib/
     │   ├── offline_gallery_view.dart
     │   └── image.png
     ├── 7/
+    │   ├── student_course_view.dart
+    │   ├── image.png
+    │   └── image2.png
     ├── 8/
     │   ├── activity_log_view.dart
     │   └── image.png
@@ -157,6 +167,15 @@ https://github.com/user-attachments/assets/eaa95967-c1cb-4835-86af-03adba8fba12
 ### Bài 6: Lưu ảnh offline (File + SQLite)
 - Ảnh demo
 ![Bài 6](lib/view/6/image.png)
+
+---
+
+### Bài 7: Quản lý sinh viên - môn học (quan hệ nhiều-nhiều)
+- Ảnh 1
+![Bài 7](lib/view/7/image.png)
+
+- Ảnh 2
+![Bài 7](lib/view/7/image2.png)
 
 ---
 

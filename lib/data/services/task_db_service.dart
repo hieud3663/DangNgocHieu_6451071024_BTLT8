@@ -37,7 +37,7 @@ class TaskDbService {
   Future<List<Task>> getAllTasks() async {
     final db = await database;
     final maps = await db.query('tasks', orderBy: 'id DESC');
-    return maps.map(Task.fromMap).toList();
+    return maps.map(Task.fromMap).toList(); 
   }
 
   Future<int> insertTask(Task task) async {

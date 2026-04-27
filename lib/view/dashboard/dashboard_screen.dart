@@ -45,6 +45,12 @@ class DashboardScreen extends StatelessWidget {
         onTap: () => Navigator.pushNamed(context, '/offline_gallery'),
       ),
       DashboardItem(
+        icon: Icons.school_outlined,
+        iconColor: Colors.teal,
+        label: 'Bài 7: Sinh viên - môn học',
+        onTap: () => Navigator.pushNamed(context, '/student_courses'),
+      ),
+      DashboardItem(
         icon: Icons.history_outlined,
         iconColor: Colors.redAccent,
         label: 'Bài 8: Nhật ký hoạt động',
