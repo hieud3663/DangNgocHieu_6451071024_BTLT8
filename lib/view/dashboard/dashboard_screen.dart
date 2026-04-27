@@ -20,6 +20,30 @@ class DashboardScreen extends StatelessWidget {
         label: 'Bài 2: Ghi chú có danh mục',
         onTap: () => Navigator.pushNamed(context, '/notes_by_category'),
       ),
+      DashboardItem(
+        icon: Icons.checklist_outlined,
+        iconColor: Colors.green,
+        label: 'Bài 3: To-do backup JSON',
+        onTap: () => Navigator.pushNamed(context, '/tasks'),
+      ),
+      DashboardItem(
+        icon: Icons.payments_outlined,
+        iconColor: Colors.purple,
+        label: 'Bài 4: Quản lý chi tiêu',
+        onTap: () => Navigator.pushNamed(context, '/expenses'),
+      ),
+      DashboardItem(
+        icon: Icons.menu_book_outlined,
+        iconColor: Colors.indigo,
+        label: 'Bài 5: Từ điển offline',
+        onTap: () => Navigator.pushNamed(context, '/dictionary'),
+      ),
+      DashboardItem(
+        icon: Icons.photo_library_outlined,
+        iconColor: Colors.brown,
+        label: 'Bài 6: Lưu ảnh offline',
+        onTap: () => Navigator.pushNamed(context, '/offline_gallery'),
+      ),
     ];
 
     return Scaffold(

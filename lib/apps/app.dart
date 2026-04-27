@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_baitap_chuong11/view/1/note_list_view.dart';
 import 'package:flutter_baitap_chuong11/view/2/note_category_list_view.dart';
+import 'package:flutter_baitap_chuong11/view/3/task_list_view.dart';
+import 'package:flutter_baitap_chuong11/view/4/expense_list_view.dart';
+import 'package:flutter_baitap_chuong11/view/5/dictionary_view.dart';
+import 'package:flutter_baitap_chuong11/view/6/offline_gallery_view.dart';
 import '../view/dashboard/dashboard_screen.dart';
 
 class MainApp extends StatelessWidget {
@@ -16,6 +20,10 @@ class MainApp extends StatelessWidget {
         '/': (context) => const DashboardScreen(),
         '/notes': (context) => const NoteListView(),
         '/notes_by_category': (context) => const NoteCategoryListView(),
+        '/tasks': (context) => const TaskListView(),
+        '/expenses': (context) => const ExpenseListView(),
+        '/dictionary': (context) => const DictionaryView(),
+        '/offline_gallery': (context) => const OfflineGalleryView(),
       },
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),

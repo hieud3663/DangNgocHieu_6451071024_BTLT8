@@ -1,0 +1,26 @@
+[
+  {
+    "word": "algorithm",
+    "meaning": "Tập hợp các bước giải quyết một bài toán."
+  },
+  {
+    "word": "database",
+    "meaning": "Hệ thống lưu trữ và quản lý dữ liệu có cấu trúc."
+  },
+  {
+    "word": "flutter",
+    "meaning": "Framework dùng để xây dựng ứng dụng đa nền tảng bằng Dart."
+  },
+  {
+    "word": "widget",
+    "meaning": "Thành phần giao diện cơ bản trong Flutter."
+  },
+  {
+    "word": "sqlite",
+    "meaning": "Hệ quản trị cơ sở dữ liệu nhẹ, nhúng trong ứng dụng."
+  },
+  {
+    "word": "controller",
+    "meaning": "Lớp điều phối logic và trạng thái giữa dữ liệu và giao diện."
+  }
+]
